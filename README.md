@@ -22,7 +22,7 @@ csdx auth:login
 5. Import the content 
 
 ```
-csdx cm:import -A -s <stack_ApiKey> -l <master_language_code> -d <path_of_folder_where_content_is_stored>
+csdx cm:import -A -s <stack_ApiKey> -l <master_language_code> -d content-export
 ```
 
 6. Create a delivery token from your trial and configure the .local.env file from the .sample.env template
