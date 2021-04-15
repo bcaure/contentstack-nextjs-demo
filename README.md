@@ -19,7 +19,7 @@ csdx auth:login
 
 4. Create a management token from your trial
 
-5. Import the content 
+5. Import the content from the content-export directory
 
 ```
 csdx cm:import -A -s <stack_ApiKey> -l <master_language_code> -d content-export
