@@ -25,5 +25,7 @@ module.exports = {
     'prettier/prettier': 'off',
     'prop-types': 'off',
     'react/destructuring-assignment': 'off',
+    'import/prefer-default-export': 'off',
+    'no-console': 'off'
   },
 };

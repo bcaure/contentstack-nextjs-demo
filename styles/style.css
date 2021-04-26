@@ -57,6 +57,11 @@ p {
     box-sizing: border-box
 }
 
+.imageCover {
+    background-size: cover;
+    background-position: center;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -99,7 +104,7 @@ header {
 }
 
 .logo .logoText i {
-    background: #533DC0;
+    background: #0c3353;
     color: #ffffff;
     border-radius: 50%;
     font-size: 19px;
@@ -128,14 +133,18 @@ header {
 }
 
 .heroBanner {
-    padding: 0
+    padding: 0;
 }
 
 .heroBanner h1 {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 60px;
-    font-weight: 700
+    font-weight: 700;
+}
+.heroBanner h1:hover {
+    font-size: 63px;
+    font-weight: 900;
 }
 
 .heroBanner h3 {
@@ -143,32 +152,18 @@ header {
     font-weight: 400
 }
 
-.heroBanner li {
-    width: 100%;
-    height: 670px;
-    overflow: hidden;
-    position: relative
+.heroBanner .bannerImage.imageCover {
+    height: 500px;
 }
 
-.heroBanner li:before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: hsla(0, 0%, 12.2%, .5);
-    z-index: 1
+.heroBanner .bannerImage {
+    filter: brightness(.8) blur(2px);
 }
 
 .bloglistTitle {
     border: 2px solid black
 }
 
-img.fullwidth {
-    width: 100%;
-    height: auto
-}
 
 .bannerContent {
     position: absolute;
@@ -194,7 +189,7 @@ img.fullwidth {
 }
 
 .portpolio h3, .portpolio h2 {
-    color: #533DC0;
+    color: #0c3353;
     margin-bottom: 5px
 }
 
@@ -212,29 +207,29 @@ img.fullwidth {
 }
 
 .portBx {
-    width: 48%;
+    width: 30%;
+    max-width: 400px;
+    min-width: 350px;
     height: 175px;
-    float: left;
+    display: flex;
     background: #fff;
     margin-top: 34px;
     padding: 30px 25px;
-    box-shadow: 0 .15rem 1.75rem 0 rgba(31, 45, 65, .15)
+    box-shadow: 0 .15rem 1.75rem 0 rgba(31, 45, 65, .15);
+    align-items: center;
 }
 
 .portBx h3 {
-    color: #533DC0;
-    text-transform: uppercase
-}
-
-.portBx:nth-child(even) {
-    margin-left: 3%
+    color: #0c3353;
+    text-transform: uppercase;
+    font-size: 1.3rem;
 }
 
 .portBx .image {
-    float: left;
+    flex: 0 0 auto;
     width: 100px;
-    color: #533DC0;
-    border: 3px solid #533DC0;
+    color: #0c3353;
+    border: 3px solid #0c3353;
     border-radius: 50%;
     height: 100px;
     padding: 25px 0;
@@ -282,7 +277,7 @@ footer .links a {
 .s-share ul li a {
     font-size: 20px;
     display: block;
-    background: #533DC0;
+    background: #0c3353;
     color: #ffffff;
     border-radius: 50%;
     width: 36px;
@@ -337,7 +332,7 @@ footer p {
 .aboutPage .head h1 {
     font-size: 60px;
     padding: 30px 0 10px 0;
-    color: #533DC0;
+    color: #0c3353;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase
@@ -404,7 +399,7 @@ footer p {
 
 .aboutPage .thumbnailBx h3 {
     font-size: 16px;
-    color: #533DC0;
+    color: #0c3353;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -444,7 +439,7 @@ footer p {
 .contactUs .contactUsPage {
     width: 100%;
     margin: 78px auto 0;
-    color: #533DC0;
+    color: #0c3353;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     padding: 0 0 40px 0
@@ -480,7 +475,7 @@ footer p {
 }
 
 .contactUs .address .emailId a {
-    color: #533DC0;
+    color: #0c3353;
     display: block;
     text-decoration: underline
 }
@@ -507,30 +502,15 @@ footer p {
     height: 100%
 }
 
-@media screen and (max-width:1000px) {
-    .hero-banner li {
-        height: 500px
-    }
-}
-
 @media screen and (max-width:860px) {
-    .hero-banner li {
-        height: 400px
-    }
     .portBx {
         width: 100%;
-        max-width: 500px;
+        max-width: 400px;
         float: none;
         margin: 25px auto
     }
     .portBx:nth-child(even) {
         margin: 0 auto
-    }
-}
-
-@media screen and (max-width:600px) {
-    .heroBanner li {
-        height: 300px
     }
 }
 
@@ -563,7 +543,7 @@ footer p {
 
 .blogpostTitle, .blog-details-title, h4, h2 {
     padding: 0 0 0px;
-    color: #533dc0;
+    color: #0c3353;
     font-family: Open Sans, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -607,7 +587,7 @@ h4 {
     height: 100%
 }
 
-.socialTitle, .sliderTitle, .blogQuotes {
+.socialTitle, .sliderTitle {
     padding: 0 0 10px 0;
     text-align: center;
     text-transform: uppercase;
@@ -615,7 +595,6 @@ h4 {
 }
 
 .bloglistContainer, .blogContent {
-    display: flex;
     flex-wrap: wrap;
     align-content: center;
     margin: 54px 25% 20px
@@ -630,6 +609,11 @@ h4 {
 
 .blogContent h2 {
     padding-top: 20px
+}
+
+/* Recipe steps */
+.blogContent ol {
+    list-style: decimal;
 }
 
 .bloglist {
@@ -691,13 +675,13 @@ h4 {
 .postLink {
     display: block;
     text-decoration: none;
-    color: #533dc0;
+    color: #0c3353;
     width: 150px;
     cursor: pointer
 }
 
 strong {
-    color: #533dc0
+    color: #0c3353
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
@@ -706,7 +690,7 @@ strong {
     margin: 15px auto;
     color: #555555;
     padding: 1.2em 30px 1.2em 75px;
-    border-left: 8px solid #533DC0;
+    border-left: 8px solid #0c3353;
     line-height: 1.6;
     position: relative;
     background: #EDEDED;

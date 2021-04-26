@@ -4,59 +4,55 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable camelcase */
 import React from "react";
-import Layout from "../components/layout";
+import { useRouter } from 'next/router';
+import Carousel from 'react-bootstrap/Carousel';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
+import Link from 'next/link';
+import { Layout } from "../components/layout";
+import { SearchBar } from '../components/searchbar';
+import { ListItem } from '../components/list-item';
 
-class Homepage extends React.Component {
-  render() {
-    const herobanner = this.props.page.hero_banner.map((item, index) => (
-      <div key={index}>
-        <ul>
-          <li>
-            <img className="fullwidth" src={item.image.url} />
-            <div className="bannerContent">
-              <h1>{item.title}</h1>
-              <h3>{item.description}</h3>
-            </div>
-          </li>
-        </ul>
+export const Homepage = ({ page: homepage }) => {
+  const page = homepage[0];
+
+  const router = useRouter();
+
+  const cocktailBanner = page.carousel.items.map(item => (
+    <Carousel.Item key={item.cocktail_entry_id}>
+      <div className="heroBanner bannerImage imageCover" style={{ backgroundImage: `url(${item.image.url})` }} />
+      <Carousel.Caption>
+        <Link href={`/blog/${item.cocktail_entry_id}`}>
+          <Button variant="link" style={{ textDecoration: 'none' }}>
+            <h1>{item.title}</h1>
+            <h3>{item.description}</h3>
+          </Button>
+        </Link>
+      </Carousel.Caption>
+    </Carousel.Item>
+  ));
+
+  const bartenders = page.bartenders?.map(bartender => <ListItem key={bartender.title} item={bartender} />);
+
+  return (
+    <Layout>
+      <div className="wrapper">
+        <div>
+          <div id="">
+            <Carousel className="heroBanner">
+              {cocktailBanner}
+            </Carousel>
+            <Container>
+              <Row style={{ margin: '30px 0' }}>
+                <SearchBar searchResultSelected={id => router.push(`/blog/${id}`)} />
+              </Row>
+              <Row><h2>Top Bartenders</h2></Row>
+              <Row>{bartenders}</Row>
+            </Container>
+          </div>
+        </div>
       </div>
-    ));
-    const section_heading = this.props.page.portfolio_section.heading.map(
-      (heading, index) => (
-        <div key={index} className="portBx clearfix">
-          <div className="image">
-            <i
-              className={`fa ${heading.fontawesome_icon}`}
-              aria-hidden="true"
-            />
-          </div>
-          <div className="pxDesc">
-            <h3>{heading.title}</h3>
-            <p>{heading.description}</p>
-          </div>
-        </div>
-      ),
-    );
-    return (
-      <Layout>
-        <div className="wrapper">
-          <div>
-            <div id="">
-              <div className="heroBanner" id="">
-                {herobanner}
-              </div>
-              <div className="portpolio clearfix">
-                <div className="container clearfix">
-                  <h2 className="portpolioTitle">{this.props.page.portfolio_section.title}</h2>
-                  <h3 className="portpolioDesc">{this.props.page.portfolio_section.description}</h3>
-                  {section_heading}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Layout>
-    );
-  }
-}
-export default Homepage;
+    </Layout>
+  );
+};

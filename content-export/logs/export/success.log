@@ -1,0 +1,122 @@
+{"level":"info","message":"Starting assets export","timestamp":"2021-04-15T07:59:29.127Z"}
+{"level":"info","message":"Downloaded avioneta.jpg: blte4e80738a19f5bc6 successfully!","timestamp":"2021-04-15T07:59:29.827Z"}
+{"level":"info","message":"Downloaded banana-daiquiri.jpg: blt7237b56fe0d79918 successfully!","timestamp":"2021-04-15T07:59:29.875Z"}
+{"level":"info","message":"Downloaded classic-daiquiri.jpg: blt488101360b3959d3 successfully!","timestamp":"2021-04-15T07:59:29.879Z"}
+{"level":"info","message":"Downloaded mixlab-landing-image.jpg: bltaf495d860f9e7caa successfully!","timestamp":"2021-04-15T07:59:29.885Z"}
+{"level":"info","message":"Downloaded bathrob_brunch.PNG: blt9fb4bde3a5a2add9 successfully!","timestamp":"2021-04-15T07:59:29.931Z"}
+{"level":"info","message":"Skipping download of { title: avioneta.jpg, uid: blte4e80738a19f5bc6 }, as they already exist","timestamp":"2021-04-15T07:59:29.978Z"}
+{"level":"info","message":"Skipping download of { title: banana-daiquiri.jpg, uid: blt7237b56fe0d79918 }, as they already exist","timestamp":"2021-04-15T07:59:30.008Z"}
+{"level":"info","message":"Skipping download of { title: mixlab-landing-image.jpg, uid: bltaf495d860f9e7caa }, as they already exist","timestamp":"2021-04-15T07:59:30.014Z"}
+{"level":"info","message":"Skipping download of { title: classic-daiquiri.jpg, uid: blt488101360b3959d3 }, as they already exist","timestamp":"2021-04-15T07:59:30.017Z"}
+{"level":"info","message":"Skipping download of { title: bathrob_brunch.PNG, uid: blt9fb4bde3a5a2add9 }, as they already exist","timestamp":"2021-04-15T07:59:31.206Z"}
+{"level":"info","message":"Downloaded Taylor-Stitch-Mendocino-Peacoat.jpg: blt1ba936cfce93f0c5 successfully!","timestamp":"2021-04-15T07:59:31.467Z"}
+{"level":"info","message":"Downloaded mvmt-cloud-front.jpg: blt5b4a2dfc7acb322c successfully!","timestamp":"2021-04-15T07:59:31.536Z"}
+{"level":"info","message":"Downloaded sunglasses_ingram-side2.jpg: bltdc23102cc5b0c1b9 successfully!","timestamp":"2021-04-15T07:59:31.578Z"}
+{"level":"info","message":"Downloaded mulberry-bag-back.jpeg: bltef5a4183c0e1c019 successfully!","timestamp":"2021-04-15T07:59:31.629Z"}
+{"level":"info","message":"Downloaded beverly-marble-wrist.jpg: bltf5ce632cb77caadf successfully!","timestamp":"2021-04-15T07:59:31.723Z"}
+{"level":"info","message":"Downloaded mulberry-bag-front.jpeg: blt2381621624995682 successfully!","timestamp":"2021-04-15T07:59:31.993Z"}
+{"level":"info","message":"Downloaded beverly-marble-front.jpg: blt83c3aa7d4518c402 successfully!","timestamp":"2021-04-15T07:59:32.028Z"}
+{"level":"info","message":"Downloaded beverly-marble-back.jpg: blt8ab139694b9b3715 successfully!","timestamp":"2021-04-15T07:59:32.258Z"}
+{"level":"info","message":"Downloaded beverly-marble-side.jpg: bltf172e876a3db2cdd successfully!","timestamp":"2021-04-15T07:59:32.528Z"}
+{"level":"info","message":"Downloaded custom-page-1.jpg: bltae51e49b124522a1 successfully!","timestamp":"2021-04-15T07:59:32.790Z"}
+{"level":"info","message":"Downloaded refer-earn.jpg: blta2ac76689648b155 successfully!","timestamp":"2021-04-15T07:59:32.796Z"}
+{"level":"info","message":"Downloaded crystal-elipse-bangle-2.jpg: bltbf946ffaf3a8a692 successfully!","timestamp":"2021-04-15T07:59:33.187Z"}
+{"level":"info","message":"Downloaded Unbeatable-price.jpg: blt6d86dde08c6c4f14 successfully!","timestamp":"2021-04-15T07:59:33.253Z"}
+{"level":"info","message":"Downloaded refer-and-save.jpg: blt870ea1421857abf8 successfully!","timestamp":"2021-04-15T07:59:33.327Z"}
+{"level":"info","message":"Downloaded text-area-1.jpg: blt82e9ec9969b218e7 successfully!","timestamp":"2021-04-15T07:59:34.238Z"}
+{"level":"info","message":"Batch no 1 of assets is complete","timestamp":"2021-04-15T07:59:34.239Z"}
+{"level":"info","message":"Downloaded Wayfarer-Sunglasses-side1.png: blt9508f759c1519e37 successfully!","timestamp":"2021-04-15T07:59:34.857Z"}
+{"level":"info","message":"Downloaded Wayfarer-Sunglasses-side2.png: blt72ecbc646e03b884 successfully!","timestamp":"2021-04-15T07:59:35.252Z"}
+{"level":"info","message":"Downloaded cover-bg-1.jpg: blt2f7d5d66e2ba5182 successfully!","timestamp":"2021-04-15T07:59:35.474Z"}
+{"level":"info","message":"Downloaded mulberry-bag-person.jpeg: blte1e4fd9fb5426ab2 successfully!","timestamp":"2021-04-15T07:59:36.405Z"}
+{"level":"info","message":"Downloaded trending-man.jpg: blt63f1284db1497f10 successfully!","timestamp":"2021-04-15T07:59:36.494Z"}
+{"level":"info","message":"Downloaded trending-woman.jpg: bltc7ac3767bff54e00 successfully!","timestamp":"2021-04-15T07:59:36.497Z"}
+{"level":"info","message":"Downloaded sale-dress.jpg: blte360f2d7e488d5ee successfully!","timestamp":"2021-04-15T07:59:36.511Z"}
+{"level":"info","message":"Downloaded icons8-badger-35.png: bltacf14d985d6e9dd4 successfully!","timestamp":"2021-04-15T07:59:36.877Z"}
+{"level":"info","message":"Downloaded sunglasses-ingram-side.jpg: blt9fffeba4fe6fc5bd successfully!","timestamp":"2021-04-15T07:59:36.953Z"}
+{"level":"info","message":"Downloaded sunglasses-ingram-front.jpg: bltdc089e35d27cb998 successfully!","timestamp":"2021-04-15T07:59:36.987Z"}
+{"level":"info","message":"Downloaded alexa-4.jpg: blt636cdf7c5e9c2793 successfully!","timestamp":"2021-04-15T07:59:37.044Z"}
+{"level":"info","message":"Downloaded alexa-3.jpg: blt6a7b7c2d101909da successfully!","timestamp":"2021-04-15T07:59:37.326Z"}
+{"level":"info","message":"Downloaded fan-3.jpg: bltb1190636d043a106 successfully!","timestamp":"2021-04-15T07:59:37.525Z"}
+{"level":"info","message":"Downloaded all-size.jpg: bltdc705b1f57ab2506 successfully!","timestamp":"2021-04-15T07:59:38.795Z"}
+{"level":"info","message":"Batch no 41 of assets is complete","timestamp":"2021-04-15T07:59:38.992Z"}
+{"level":"info","message":"Downloaded free-delivery.svg: bltd937d79235f9a19a successfully!","timestamp":"2021-04-15T07:59:39.577Z"}
+{"level":"info","message":"Downloaded night-trial.svg: bltf065fcd50e8d6475 successfully!","timestamp":"2021-04-15T07:59:39.760Z"}
+{"level":"info","message":"Downloaded mvmt-cloud-back.jpg: blt1baf3a38fe929e61 successfully!","timestamp":"2021-04-15T07:59:39.766Z"}
+{"level":"info","message":"Downloaded mvmt-cloud-side.jpg: blt26fbbb9f8b642875 successfully!","timestamp":"2021-04-15T07:59:39.769Z"}
+{"level":"info","message":"Downloaded mulberry-bag-top.jpeg: blt52a4c01f293bcf9e successfully!","timestamp":"2021-04-15T07:59:39.772Z"}
+{"level":"info","message":"Downloaded icons8-badger-50.png: blte40e7604224eb412 successfully!","timestamp":"2021-04-15T07:59:40.201Z"}
+{"level":"info","message":"Downloaded sale-gadget.jpg: blt4962780844400885 successfully!","timestamp":"2021-04-15T07:59:41.017Z"}
+{"level":"info","message":"Downloaded store-front.jpg: blt0677711aeb1f0835 successfully!","timestamp":"2021-04-15T07:59:41.359Z"}
+{"level":"info","message":"Downloaded Wayfarer-Sunglasses-front.png: blt8ad4e3b2bcab51c2 successfully!","timestamp":"2021-04-15T07:59:41.681Z"}
+{"level":"info","message":"Downloaded womens-jacket-front.jpg: blt5b01a57b04d3a678 successfully!","timestamp":"2021-04-15T07:59:41.717Z"}
+{"level":"info","message":"Downloaded crystal-elipse-bangle-1.jpg: blt3d74d0839583e626 successfully!","timestamp":"2021-04-15T07:59:41.747Z"}
+{"level":"info","message":"Downloaded fan-2.jpg: blt9ceaa80396b656ee successfully!","timestamp":"2021-04-15T07:59:42.302Z"}
+{"level":"info","message":"Downloaded fan-1.jpg: blt981e351863259aa1 successfully!","timestamp":"2021-04-15T07:59:42.358Z"}
+{"level":"info","message":"Downloaded unbeatable-prices.jpg: blt8595ceef9a357193 successfully!","timestamp":"2021-04-15T07:59:42.473Z"}
+{"level":"info","message":"Downloaded sale-purse.jpg: blt0a4b87a6b031b513 successfully!","timestamp":"2021-04-15T07:59:42.526Z"}
+{"level":"info","message":"Downloaded alexa-1.jpg: blt0ee56be1c95ce5ac successfully!","timestamp":"2021-04-15T07:59:42.684Z"}
+{"level":"info","message":"Downloaded grey-jacket-back.jpg: blt24eb3cc16359c95d successfully!","timestamp":"2021-04-15T07:59:42.779Z"}
+{"level":"info","message":"Downloaded customer-service.svg: blt59b43ec0db9c8a3f successfully!","timestamp":"2021-04-15T07:59:42.809Z"}
+{"level":"info","message":"Downloaded alexa-2.jpg: blte18dc9c7e577c82f successfully!","timestamp":"2021-04-15T07:59:42.965Z"}
+{"level":"info","message":"Downloaded sale-watches.jpg: blt037d34bff40a6976 successfully!","timestamp":"2021-04-15T07:59:43.186Z"}
+{"level":"info","message":"Batch no 21 of assets is complete","timestamp":"2021-04-15T07:59:43.194Z"}
+{"level":"info","message":"Asset-folders have been successfully exported!","timestamp":"2021-04-15T07:59:43.469Z"}
+{"level":"info","message":"\u001b[32mAsset export completed successfully\u001b[39m","timestamp":"2021-04-15T07:59:43.470Z"}
+{"level":"info","message":"Starting locale export","timestamp":"2021-04-15T07:59:43.475Z"}
+{"level":"info","message":"French - France locale was exported successfully","timestamp":"2021-04-15T07:59:43.606Z"}
+{"level":"info","message":"Spanish locale was exported successfully","timestamp":"2021-04-15T07:59:43.607Z"}
+{"level":"info","message":"\u001b[32mAll the locales have been exported successfully\u001b[39m","timestamp":"2021-04-15T07:59:43.608Z"}
+{"level":"info","message":"Starting environment export","timestamp":"2021-04-15T07:59:43.611Z"}
+{"level":"info","message":"\u001b[32mAll the environments have been exported successfully\u001b[39m","timestamp":"2021-04-15T07:59:43.742Z"}
+{"level":"info","message":"Starting extension export","timestamp":"2021-04-15T07:59:43.744Z"}
+{"level":"info","message":"Starting webhooks export","timestamp":"2021-04-15T07:59:43.972Z"}
+{"level":"info","message":"\u001b[32mAll the extensions have been exported successfully\u001b[39m","timestamp":"2021-04-15T07:59:43.969Z"}
+{"level":"info","message":"\u001b[32mAll the webhooks have been exported successfully\u001b[39m","timestamp":"2021-04-15T07:59:44.145Z"}
+{"level":"info","message":"Starting Global Fields export","timestamp":"2021-04-15T07:59:44.151Z"}
+{"level":"info","message":"\u001b[32mGlobal Fields export completed successfully\u001b[39m","timestamp":"2021-04-15T07:59:44.303Z"}
+{"level":"info","message":"Starting content type export","timestamp":"2021-04-15T07:59:44.313Z"}
+{"level":"info","message":"\u001b[32mContent type(s) exported successfully\u001b[39m","timestamp":"2021-04-15T07:59:44.580Z"}
+{"level":"info","message":"Starting workflow export","timestamp":"2021-04-15T07:59:44.584Z"}
+{"level":"info","message":"Homepage Publish workflow was exported successfully","timestamp":"2021-04-15T07:59:44.714Z"}
+{"level":"info","message":"Product Page Workflow workflow was exported successfully","timestamp":"2021-04-15T07:59:44.715Z"}
+{"level":"info","message":"\u001b[32mAll the workflow have been exported successfully\u001b[39m","timestamp":"2021-04-15T07:59:44.720Z"}
+{"level":"info","message":"Starting entry migration","timestamp":"2021-04-15T07:59:44.724Z"}
+{"level":"info","message":"Exported entries of category to the fr-fr language successfully","timestamp":"2021-04-15T07:59:45.070Z"}
+{"level":"info","message":"Exported entries of cocktail to the en-us language successfully","timestamp":"2021-04-15T07:59:45.393Z"}
+{"level":"info","message":"Exported entries of cocktail to the es language successfully","timestamp":"2021-04-15T07:59:45.710Z"}
+{"level":"info","message":"Exported entries of cocktail to the fr-fr language successfully","timestamp":"2021-04-15T07:59:46.040Z"}
+{"level":"info","message":"Exported entries of test to the en-us language successfully","timestamp":"2021-04-15T07:59:46.335Z"}
+{"level":"info","message":"Exported entries of test to the es language successfully","timestamp":"2021-04-15T07:59:46.632Z"}
+{"level":"info","message":"Exported entries of test to the fr-fr language successfully","timestamp":"2021-04-15T07:59:46.928Z"}
+{"level":"info","message":"Exported entries of ingredient to the en-us language successfully","timestamp":"2021-04-15T07:59:47.230Z"}
+{"level":"info","message":"Exported entries of ingredient to the es language successfully","timestamp":"2021-04-15T07:59:47.512Z"}
+{"level":"info","message":"Exported entries of ingredient to the fr-fr language successfully","timestamp":"2021-04-15T07:59:47.791Z"}
+{"level":"info","message":"Exported entries of dialogs to the en-us language successfully","timestamp":"2021-04-15T07:59:48.098Z"}
+{"level":"info","message":"Exported entries of dialogs to the es language successfully","timestamp":"2021-04-15T07:59:48.407Z"}
+{"level":"info","message":"Exported entries of dialogs to the fr-fr language successfully","timestamp":"2021-04-15T07:59:48.704Z"}
+{"level":"info","message":"Exported entries of homepage to the en-us language successfully","timestamp":"2021-04-15T07:59:49.041Z"}
+{"level":"info","message":"Exported entries of homepage to the es language successfully","timestamp":"2021-04-15T07:59:49.386Z"}
+{"level":"info","message":"Exported entries of homepage to the fr-fr language successfully","timestamp":"2021-04-15T07:59:49.731Z"}
+{"level":"info","message":"Exported entries of landing_pages to the en-us language successfully","timestamp":"2021-04-15T07:59:50.102Z"}
+{"level":"info","message":"Exported entries of landing_pages to the es language successfully","timestamp":"2021-04-15T07:59:50.473Z"}
+{"level":"info","message":"Exported entries of landing_pages to the fr-fr language successfully","timestamp":"2021-04-15T07:59:50.828Z"}
+{"level":"info","message":"Exported entries of product to the en-us language successfully","timestamp":"2021-04-15T07:59:51.239Z"}
+{"level":"info","message":"Exported entries of product to the es language successfully","timestamp":"2021-04-15T07:59:51.635Z"}
+{"level":"info","message":"Exported entries of product to the fr-fr language successfully","timestamp":"2021-04-15T07:59:52.034Z"}
+{"level":"info","message":"Exported entries of custom_pages to the en-us language successfully","timestamp":"2021-04-15T07:59:52.337Z"}
+{"level":"info","message":"Exported entries of custom_pages to the es language successfully","timestamp":"2021-04-15T07:59:52.649Z"}
+{"level":"info","message":"Exported entries of custom_pages to the fr-fr language successfully","timestamp":"2021-04-15T07:59:52.963Z"}
+{"level":"info","message":"Exported entries of menu to the en-us language successfully","timestamp":"2021-04-15T07:59:53.298Z"}
+{"level":"info","message":"Exported entries of menu to the es language successfully","timestamp":"2021-04-15T07:59:53.645Z"}
+{"level":"info","message":"Exported entries of menu to the fr-fr language successfully","timestamp":"2021-04-15T07:59:53.993Z"}
+{"level":"info","message":"Exported entries of sections to the en-us language successfully","timestamp":"2021-04-15T07:59:54.300Z"}
+{"level":"info","message":"Exported entries of sections to the es language successfully","timestamp":"2021-04-15T07:59:54.585Z"}
+{"level":"info","message":"Exported entries of sections to the fr-fr language successfully","timestamp":"2021-04-15T07:59:54.892Z"}
+{"level":"info","message":"Exported entries of category to the en-us language successfully","timestamp":"2021-04-15T07:59:55.220Z"}
+{"level":"info","message":"Exported entries of category to the es language successfully","timestamp":"2021-04-15T07:59:55.533Z"}
+{"level":"info","message":"Entry migration completed successfully","timestamp":"2021-04-15T07:59:55.535Z"}
+{"level":"info","message":"Starting labels export","timestamp":"2021-04-15T07:59:55.542Z"}
+{"level":"info","message":"No labels found","timestamp":"2021-04-15T07:59:55.674Z"}
+{"level":"info","message":"\u001b[32mThe content of the blta75af917b78de8fb has been exported succesfully!\u001b[39m","timestamp":"2021-04-15T07:59:55.675Z"}
+{"level":"info","message":"The log for this is stored at C:\\Users\\benth\\Documents\\dev\\pro\\bacardi\\CMS\\contentstack-nextjs-react-mixlab\\logs\\export","timestamp":"2021-04-15T07:59:55.676Z"}

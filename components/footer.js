@@ -4,32 +4,30 @@
 /* eslint-disable react/no-danger */
 import React from "react";
 
-class Footer extends React.Component {
-  render() {
-    const footerNav = this.props.footer.nav_links.link.map((item, index) => (
-      <a href={item.href} key={index}>
-        {item.title}
-      </a>
-    ));
+export const Footer = ({ footer }) => {
+  const footerNav = footer.nav_links.map((item, index) => (
+    <a href={item.href} key={index}>
+      {item.title}
+    </a>
+  ));
 
-    const socialShare = this.props.footer.social_share.map((item, index) => (
-      <li key={index}>
-        <a href={item.link.href}>
-          <i className={`fa ${item.icon_class}`} />
-        </a>
-      </li>
-    ));
-    return (
-      <footer>
-        <div className="links">{footerNav}</div>
-        <div className="s-share">
-          <ul>{socialShare}</ul>
-        </div>
-        <div className="copywrite">
-          <div dangerouslySetInnerHTML={{ __html: this.props.footer.copywrite }} />
-        </div>
-      </footer>
-    );
-  }
-}
-export default Footer;
+  const socialShare = (
+    <li>
+      <a href={footer.social_share.href}>
+        <i className={`fa-${footer.social_share.title.toLowerCase()}`} />
+      </a>
+    </li>
+  );
+
+  return (
+    <footer>
+      <div className="links">{footerNav}</div>
+      <div className="s-share">
+        <ul>{socialShare}</ul>
+      </div>
+      <div className="copywrite">
+        <div dangerouslySetInnerHTML={{ __html: footer.copywrite }} />
+      </div>
+    </footer>
+  );
+};

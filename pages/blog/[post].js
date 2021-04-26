@@ -2,27 +2,23 @@
 /* eslint-disable consistent-return */
 /* eslint-disable no-throw-literal */
 /* eslint-disable import/extensions */
-import React from "react";
-import Stack from "../../sdk-plugins/index.js";
-import Layout from "../../components/layout";
-import BlogTemplate from "../../templates/blogpost-temp.js";
+import React from 'react';
+import { getFirstEntry } from '../../contentstack/sdk.js';
+import { fetchEntry } from '../../contentstack/api.js';
+import { Layout } from '../../components/layout';
+import { BlogTemplate } from '../../templates/blogpost-temp.js';
+
 
 class BlogPosts extends React.Component {
   static async getInitialProps({ query }) {
     const postLink = query.post;
     try {
-      const result = await Stack.getSpecificEntryWihtRef(
-        "blog_posts",
-        `/blog/${postLink}`,
-        'author',
-        "en-us",
-      );
-
-      const header = await Stack.getEntry("header", "en-us");
-      const footer = await Stack.getEntry("footer", "en-us");
+      const result = await fetchEntry('cocktail', postLink);
+      const header = await getFirstEntry('cocktail_header_section', 'en-us');
+      const footer = await getFirstEntry('cocktail_footer_section', 'en-us');
       return {
         data: {
-          result: result[0],
+          result,
           header,
           footer,
         },
@@ -35,9 +31,8 @@ class BlogPosts extends React.Component {
   render() {
     return (
       <Layout
-        header={this.props.data.header[0][0]}
-        footer={this.props.data.footer[0][0]}
-        seo={this.props.data.result.seo}
+        header={this.props.data.header}
+        footer={this.props.data.footer}
       >
         <BlogTemplate page={this.props.data.result} />
       </Layout>

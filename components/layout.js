@@ -8,44 +8,45 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/prop-types */
 
-import React from "react";
+import React, { useCallback } from "react";
 import Head from "next/head";
-import Header from "./header";
-import Footer from "./footer";
+import { Header } from "./header";
+import { Footer } from "./footer";
 
-class Layout extends React.Component {
-  render() {
-    function metaData(seo) {
-      let metaArr = [];
-      for (const key in seo) {
-        metaArr.push(
-          <meta name={key.split("meta_")[1]} content={seo[key]} key={key} />,
-        );
-      }
-      return metaArr;
+export const Layout = ({
+  seo, header, footer, children,
+}) => {
+  const metaData = useCallback((theSeo) => {
+    let metaArr = [];
+    for (const key in theSeo) {
+      metaArr.push(
+        <meta name={key.split("meta_")[1]} content={theSeo[key]} key={key} />,
+      );
     }
-    return (
-      <div id="asdf4534">
-        <Head>
-          <title>CS Nextjs Website</title>
-          <link
-            type="text/css"
-            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
-            rel="stylesheet"
-          />
-          <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-            type="text/css"
-            rel="stylesheet"
-          />
-          {this.props.seo ? metaData(this.props.seo) : null}
-        </Head>
-        {this.props.header ? <Header header={this.props.header} /> : ""}
-        <main>{this.props.children}</main>
-        {this.props.footer ? <Footer footer={this.props.footer} /> : ""}
+    return metaArr;
+  }, []);
+  return (
+    <div id="asdf4534">
+      <Head>
+        <title>ContentStack - Cocktail Demo</title>
+        <link
+          type="text/css"
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+          rel="stylesheet"
+        />
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+          type="text/css"
+          rel="stylesheet"
+        />
+        {seo ? metaData(seo) : null}
+      </Head>
+      {header ? <Header header={header} /> : ""}
+      <main>{children}</main>
+      {footer ? <Footer footer={footer} /> : ""}
 
-        <style jsx>
-          {`
+      <style jsx>
+        {`
             body {
               font-family: "Open Sans", sans-serif;
             }
@@ -54,9 +55,7 @@ class Layout extends React.Component {
               margin: 0 auto;
             }
           `}
-        </style>
-      </div>
-    );
-  }
-}
-export default Layout;
+      </style>
+    </div>
+  );
+};
