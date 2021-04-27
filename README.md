@@ -27,23 +27,18 @@ csdx cm:import -A -s <stack_ApiKey> -l <master_language_code> -d content-export
 
 6. Create a delivery token from your trial and configure the .local.env file from the .sample.env template
 
+7. Run the app:
 
+```
+npm run dev
+```
 
-![banner](https://user-images.githubusercontent.com/41462986/105998117-51667580-60d2-11eb-80d8-155621ab6f52.png "banner.png")
-
-## Live Demo
-
-You can check the [live demo](https://sample-apps-nextjs-demo.now.sh/) to get first-hand experience of the website.
-
-
-## Tutorial
-
-We have created an in-depth tutorial on how you can create your application using Contentstack Javascript SDK. By following the steps given in the tutorial, you will be able to initialise and fetch entries from Contentstack though provided Javascript SDK.
-
-[Build Website using Next.js and Contentstack](https://www.contentstack.com/docs/example-apps/build-a-website-using-next-js-and-contentstack)
+![banner](demo.png "demo.png")
 
 
 ## Documentation
+
+You can see example of use of the SDK and the API from the src/contentstack directory
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
